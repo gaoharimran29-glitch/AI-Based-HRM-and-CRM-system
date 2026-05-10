@@ -1,0 +1,228 @@
+[
+    {
+        "candidate_name": "GAOHAR IMRAN",
+        "email": "gaoharimran3@gmail.com",
+        "phone": "+91 7065284087",
+        "score": 86,
+        "verdict": "Strong Match",
+        "required_matches": [
+            {
+                "requirement": "python",
+                "score": 1.0,
+                "matched": true,
+                "evidence": "python",
+                "evidence_type": "skill"
+            },
+            {
+                "requirement": "sql",
+                "score": 1.0,
+                "matched": true,
+                "evidence": "sql",
+                "evidence_type": "skill"
+            },
+            {
+                "requirement": "machine learning algorithms",
+                "score": 0.913,
+                "matched": true,
+                "evidence": "classification",
+                "evidence_type": "skill"
+            },
+            {
+                "requirement": "deep learning",
+                "score": 1.0,
+                "matched": true,
+                "evidence": "deep learning",
+                "evidence_type": "project_technology"
+            },
+            {
+                "requirement": "neural networks",
+                "score": 1.0,
+                "matched": true,
+                "evidence": "neural networks",
+                "evidence_type": "skill"
+            },
+            {
+                "requirement": "cnn",
+                "score": 0.98,
+                "matched": true,
+                "evidence": "cnns",
+                "evidence_type": "skill"
+            },
+            {
+                "requirement": "transformers",
+                "score": 1.0,
+                "matched": true,
+                "evidence": "transformers",
+                "evidence_type": "skill"
+            },
+            {
+                "requirement": "nlp pipelines",
+                "score": 1.0,
+                "matched": true,
+                "evidence": "nlp pipelines",
+                "evidence_type": "skill"
+            },
+            {
+                "requirement": "huggingface",
+                "score": 1.0,
+                "matched": true,
+                "evidence": "huggingface",
+                "evidence_type": "skill"
+            },
+            {
+                "requirement": "numpy",
+                "score": 1.0,
+                "matched": true,
+                "evidence": "numpy",
+                "evidence_type": "skill"
+            },
+            {
+                "requirement": "pandas",
+                "score": 1.0,
+                "matched": true,
+                "evidence": "pandas",
+                "evidence_type": "skill"
+            },
+            {
+                "requirement": "scikit learn",
+                "score": 1.0,
+                "matched": true,
+                "evidence": "scikit learn",
+                "evidence_type": "skill"
+            },
+            {
+                "requirement": "tensorflow",
+                "score": 1.0,
+                "matched": true,
+                "evidence": "tensorflow",
+                "evidence_type": "skill"
+            },
+            {
+                "requirement": "langchain",
+                "score": 1.0,
+                "matched": true,
+                "evidence": "langchain",
+                "evidence_type": "skill"
+            },
+            {
+                "requirement": "llm orchestration tools",
+                "score": 0.681,
+                "matched": true,
+                "evidence": "classification",
+                "evidence_type": "skill"
+            },
+            {
+                "requirement": "ml llm evaluation techniques",
+                "score": 0.79,
+                "matched": true,
+                "evidence": "model evaluation",
+                "evidence_type": "skill"
+            }
+        ],
+        "required_missing": [],
+        "preferred_matches": [
+            {
+                "requirement": "rag based systems",
+                "score": 0.792,
+                "matched": true,
+                "evidence": "developed RAG based document QA system",
+                "evidence_type": "project_highlight"
+            },
+            {
+                "requirement": "vector databases",
+                "score": 1.0,
+                "matched": true,
+                "evidence": "vector databases",
+                "evidence_type": "project_technology"
+            },
+            {
+                "requirement": "semantic search",
+                "score": 0.799,
+                "matched": true,
+                "evidence": "classification",
+                "evidence_type": "skill"
+            },
+            {
+                "requirement": "docker",
+                "score": 1.0,
+                "matched": true,
+                "evidence": "docker",
+                "evidence_type": "skill"
+            },
+            {
+                "requirement": "flask",
+                "score": 1.0,
+                "matched": true,
+                "evidence": "flask",
+                "evidence_type": "skill"
+            },
+            {
+                "requirement": "aws",
+                "score": 1.0,
+                "matched": true,
+                "evidence": "aws",
+                "evidence_type": "skill"
+            },
+            {
+                "requirement": "ec2",
+                "score": 0.865,
+                "matched": true,
+                "evidence": "aws",
+                "evidence_type": "skill"
+            },
+            {
+                "requirement": "s3",
+                "score": 0.782,
+                "matched": true,
+                "evidence": "classification",
+                "evidence_type": "skill"
+            },
+            {
+                "requirement": "route 53",
+                "score": 0.71,
+                "matched": true,
+                "evidence": "classification",
+                "evidence_type": "skill"
+            },
+            {
+                "requirement": "hallucination mitigation in llms",
+                "score": 0.835,
+                "matched": true,
+                "evidence": "reduced hallucination rate from 60% to 15%",
+                "evidence_type": "project_highlight"
+            },
+            {
+                "requirement": "llm evaluation frameworks",
+                "score": 0.861,
+                "matched": true,
+                "evidence": "designed automated evaluation framework",
+                "evidence_type": "project_highlight"
+            },
+            {
+                "requirement": "linux",
+                "score": 1.0,
+                "matched": true,
+                "evidence": "linux",
+                "evidence_type": "skill"
+            },
+            {
+                "requirement": "git workflows",
+                "score": 0.932,
+                "matched": true,
+                "evidence": "git",
+                "evidence_type": "skill"
+            }
+        ],
+        "preferred_missing": [],
+        "skill_score": 0.96,
+        "preferred_skill_score": 0.89,
+        "project_score": 0.819,
+        "role_score": 0.591,
+        "experience_score": 1.0,
+        "education_score": 1.0,
+        "global_score": 0.592,
+        "experience_gap": 0,
+        "resume": "Gaohar Imran Resume.pdf",
+        "status": "ok"
+    }
+]
