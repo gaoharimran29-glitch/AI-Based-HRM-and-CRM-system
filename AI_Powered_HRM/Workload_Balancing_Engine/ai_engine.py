@@ -3,6 +3,9 @@ import logging
 import os
 import time
 
+from dotenv import load_dotenv
+from pathlib import Path
+
 from google import genai
 from google.genai import types
 
@@ -11,17 +14,26 @@ from tools import TOOLS, run_tool, ensure_indexes
 log = logging.getLogger(__name__)
 
 # =========================================================
-# STARTUP VALIDATION  (BUG-1)
+# LOAD .ENV
+# =========================================================
+
+env_path = Path(__file__).parent / ".env"
+load_dotenv(dotenv_path=env_path)
+
+# =========================================================
+# STARTUP VALIDATION
 # =========================================================
 
 _API_KEY = os.getenv("GEMINI_API_KEY")
+
 if not _API_KEY:
     raise EnvironmentError(
         "GEMINI_API_KEY is not set. "
         "Copy .env.example to .env and add your key."
     )
 
-client     = genai.Client(api_key=_API_KEY)
+client = genai.Client(api_key=_API_KEY)
+
 MODEL_NAME = "gemini-2.5-flash-lite"
 
 # =========================================================

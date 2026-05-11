@@ -19,10 +19,13 @@ from tools import get_tools
 from guardrails import validate_input, GuardrailViolation
 from audit_logger import log_query, log_blocked, log_error
 from policies import ensure_policy_data_loaded
+from pathlib import Path
 # ─────────────────────────────────────────────
 # ENV
 # ─────────────────────────────────────────────
-load_dotenv()
+
+env_path = Path(__file__).parent / ".env"
+load_dotenv(dotenv_path=env_path)
 ensure_policy_data_loaded()
 # ─────────────────────────────────────────────
 # LLM
